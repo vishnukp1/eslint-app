@@ -1,7 +1,12 @@
-import logo from './logo.svg';
-import './App.css';
+import logo from './logo.svg'
+import './App.css'
 
 function App() {
+  function varr(){
+    var good = 1
+    return good
+  }
+  varr()
   return (
     <div className="App">
       <header className="App-header">
